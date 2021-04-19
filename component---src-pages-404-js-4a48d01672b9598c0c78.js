@@ -1,0 +1,2 @@
+(self.webpackChunkNatasha_Williams=self.webpackChunkNatasha_Williams||[]).push([[883],{9616:function(e,a,t){"use strict";t.r(a),t.d(a,{default:function(){return u}});var n=t(7294),l=t(9556);function u(){return n.createElement(l.Z,{title:"Page Not Found"},n.createElement("p",null,"Oops! The page you are looking for has been removed."))}}}]);
+//# sourceMappingURL=component---src-pages-404-js-4a48d01672b9598c0c78.js.map
