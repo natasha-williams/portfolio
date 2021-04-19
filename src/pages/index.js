@@ -14,7 +14,7 @@ export default function Home() {
                     <p>I'm a web developer based in Guildford, Surrey with over
                     10 years experience. I currently work remotely for a
                     telecoms company updating all company websites, fixing bugs,
-                    improve the existing code base and implementing new
+                    improving the existing code base and implementing new
                     features.</p>
                 </div>
             </Section>
