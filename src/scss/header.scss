@@ -1,0 +1,21 @@
+@import "variables";
+
+header {
+    background: linear-gradient(to bottom,
+                                $colour-green 0%,
+                                $colour-green 70%,
+                                $colour-green 70%,
+                                $colour-white 70%,
+                                $colour-white 100%);
+    color: $colour-white;
+
+    img {
+        width: 100%;
+        max-width: 800px;
+        margin: auto;
+    }
+
+    & > .container {
+        padding-bottom: 0;
+    }
+}
