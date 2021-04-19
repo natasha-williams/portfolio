@@ -10,7 +10,7 @@ export default function Home() {
     return (
         <Layout>
             <Section title="About Me" className="bg-pink" image={SectionImage}>
-                <div data-sal="slide-up">
+                <div data-sal="slide-up" data-sal-delay="300">
                     <p>I'm a web developer based in Guildford, Surrey with over
                     10 years experience. I currently work remotely for a
                     telecoms company updating all company websites, fixing bugs,
@@ -20,7 +20,7 @@ export default function Home() {
             </Section>
 
             <Section title="Skills">
-                <div data-sal="slide-up">
+                <div data-sal="slide-up" data-sal-delay="300">
                     <Feature item="HTML"></Feature>
                     <Feature item="CSS"></Feature>
                     <Feature item="SCSS"></Feature>
@@ -31,7 +31,7 @@ export default function Home() {
 
                 <h3>Frameworks</h3>
 
-                <div data-sal="slide-up">
+                <div data-sal="slide-up" data-sal-delay="300">
                     <Feature item="jQuery"></Feature>
                     <Feature item="Bootstrap"></Feature>
                     <Feature item="Backbone"></Feature>
@@ -42,14 +42,14 @@ export default function Home() {
 
                 <h3>Design</h3>
 
-                <div data-sal="slide-up">
+                <div data-sal="slide-up" data-sal-delay="300">
                     <Feature item="Adobe Photoshop"></Feature>
                     <Feature item="Adobe Premiere"></Feature>
                 </div>
 
                 <h3>Other</h3>
 
-                <div data-sal="slide-up">
+                <div data-sal="slide-up" data-sal-delay="300">
                     <Feature item="SEO"></Feature>
                     <Feature item="Unit testing"></Feature>
                     <Feature item="Behavior-driven development"></Feature>
@@ -59,7 +59,7 @@ export default function Home() {
 
                 <h3>Professional</h3>
 
-                <div data-sal="slide-up">
+                <div data-sal="slide-up" data-sal-delay="300">
                     <Feature item="Interpersonal"></Feature>
                     <Feature item="Analytical"></Feature>
                     <Feature item="Organised"></Feature>
