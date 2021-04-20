@@ -23,7 +23,7 @@ export default function Home() {
                 <div data-sal="slide-up" data-sal-delay="300">
                     <Feature item="HTML"></Feature>
                     <Feature item="CSS"></Feature>
-                    <Feature item="SCSS"></Feature>
+                    <Feature item="SASS"></Feature>
                     <Feature item="JavaScript"></Feature>
                     <Feature item="Python"></Feature>
                     <Feature item="MySQL"></Feature>
@@ -52,8 +52,8 @@ export default function Home() {
                 <div data-sal="slide-up" data-sal-delay="300">
                     <Feature item="SEO"></Feature>
                     <Feature item="Unit testing"></Feature>
-                    <Feature item="Behavior-driven development"></Feature>
-                    <Feature item="Chrome/Firefox/Safari Extensions"></Feature>
+                    <Feature item="Behaviour-driven development (BDD)"></Feature>
+                    <Feature item="Chrome/Firefox/Safari extensions"></Feature>
                     <Feature item="Docker"></Feature>
                 </div>
 
