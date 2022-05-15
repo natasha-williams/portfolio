@@ -1,4 +1,4 @@
-@import "variables";
+@import "../variables";
 
 body {
     font-family: Helvetica, Arial, sans-serif;
@@ -27,15 +27,15 @@ a {
     font-weight: bold;
     color: inherit;
     text-decoration: none;
-    padding: 0 $default-padding / 2;
+    padding: 0 calc($default-padding / 2);
     font-size: 85%;
 
     &.btn-pink {
         background-color: darken($colour-pink, 15%);
         color: $colour-white;
-        padding: $default-padding / 2 $default-padding;
+        padding: calc($default-padding / 2) $default-padding;
         border-radius: $border-radius;
-        margin: $default-padding / 2;
+        margin: calc($default-padding / 2);
     }
 }
 

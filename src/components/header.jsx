@@ -1,11 +1,12 @@
-import React from 'react'
-import { useStaticQuery, graphql } from 'gatsby'
+import React from 'react';
+import { useStaticQuery, graphql } from 'gatsby';
 
 import HeaderImage from '../images/header.svg';
 
-import '../scss/header.scss';
+import './header.scss';
 
-export default function Header() {
+
+function Header() {
     const data = useStaticQuery(
         graphql`
             query {
@@ -18,7 +19,7 @@ export default function Header() {
                 }
             }
         `
-    )
+    );
 
     return (
         <header className="text-center">
@@ -36,5 +37,8 @@ export default function Header() {
                     alt="Natasha Williams" title="Natasha Williams" />
             </div>
         </header>
-    )
+    );
 }
+
+
+export default Header;

@@ -1,6 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-export default function Section({ children, title, className, image }) {
+
+function Section({ children, title, className, image }) {
     return (
         <section className={className}>
             <div className="container">
@@ -17,3 +18,6 @@ export default function Section({ children, title, className, image }) {
         </section>
     )
 }
+
+
+export default Section;

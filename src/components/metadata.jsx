@@ -1,8 +1,9 @@
-import React from 'react'
-import { Helmet } from 'react-helmet'
-import { useStaticQuery, graphql } from 'gatsby'
+import React from 'react';
+import { Helmet } from 'react-helmet';
+import { useStaticQuery, graphql } from 'gatsby';
 
-export default function Metadata() {
+
+function Metadata() {
     const data = useStaticQuery(
         graphql`
             query {
@@ -13,7 +14,7 @@ export default function Metadata() {
                 }
             }
         `
-    )
+    );
 
     return (
         <Helmet>
@@ -23,5 +24,8 @@ export default function Metadata() {
             </title>
             <meta name="robots" content="noindex" />
         </Helmet>
-    )
+    );
 }
+
+
+export default Metadata;
